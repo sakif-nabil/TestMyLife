@@ -25,6 +25,12 @@ public class DemoApplication implements CommandLineRunner {
         produitRepository.save(new Produit(null,"lenovo 1",1,10));
         produitRepository.save(new Produit(null,"lenovo 2",2,20));
         produitRepository.save(new Produit(null,"lenovo 3",3,30));
+        produitRepository.save(new Produit(null,"Camera 1",1,10));
+        produitRepository.save(new Produit(null,"Camera 2",2,20));
+        produitRepository.save(new Produit(null,"Camera 3",3,30));
+        produitRepository.save(new Produit(null,"Smartphone 1",1,10));
+        produitRepository.save(new Produit(null,"Smartphone 2",2,20));
+        produitRepository.save(new Produit(null,"Smartphone 3",3,30));
 
 
         System.out.println("hello");
